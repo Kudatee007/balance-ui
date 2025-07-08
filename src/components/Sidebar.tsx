@@ -1,4 +1,3 @@
-import React from "react";
 import { Atom } from "lucide-react";
 
 

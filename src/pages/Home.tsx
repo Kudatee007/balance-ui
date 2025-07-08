@@ -1,4 +1,3 @@
-import React from "react";
 import pictureBlack from "../assets/PictureBlack.svg";
 import apexBackground from "../assets/apex.jpg";
 import dionysos from "../assets/dionysos.gif";
