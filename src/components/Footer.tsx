@@ -1,5 +1,5 @@
 import React from "react";
-import { Atom, ArrowUp, Instagram, Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
+import {  ArrowUp, Instagram, Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (

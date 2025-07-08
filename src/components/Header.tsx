@@ -4,7 +4,7 @@ import Sidebar from "./Sidebar";
 
 const Header = () => {
   const [menu, setMenu] = useState(true);
-  const [hidden, setHidden] = useState(false);
+
 
   function handlenMenu() {
     setMenu(!menu);
