@@ -4,9 +4,9 @@ import { Atom } from "lucide-react";
 
 const Sidebar = () => {
   return (
-    <div>
+    <div className="absolute top-0 left-0 h-screen w-full bg-white z-0 flex justify-center flex-col">
       <aside>
-        <section className="h-screen w-full">
+        <section>
           <div className="flex justify-around h-4/5 items-end px-[100px]">
             <ul className="flex flex-col gap-0 leading-28">
               <li className="text-[110px] text-[#141414] font-bold">Home</li>

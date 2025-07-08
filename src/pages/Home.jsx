@@ -1,18 +1,29 @@
 import React from "react";
 import pictureBlack from "../assets/PictureBlack.svg";
-import apexBackground from "../assets/PictureBlack.svg";
+import apexBackground from "../assets/apex.jpg";
+import dionysos from "../assets/dionysos.gif";
+import eyeWear from "../assets/eyewear.jpg";
+import contact from "../assets/contact.jpeg";
+import holdingFlowers from "../assets/holding-flowers.avif";
 
 const Home = () => {
   return (
     <div>
-      <section className="flex items-end justify-end h-screen w-full px-8">
-        <div className="w-full text-start">
+      <section className="relative top-0 flex items-end justify-end h-screen w-full px-8">
+        <div className="absolute left-0 bottom-0 z-10 w-full text-start px-8">
           <p className="text-sm text-black">Digital Designer</p>
           <p className="text-sm text-gray-500 w-[30ch] leading-4">
             I help designers and agencies elevate thier branding with creative
             development support.
           </p>
           <h1 className="text-[200px] font-bold leading-45">JOHN TAYLOR</h1>
+        </div>
+        <div>
+          <img
+            src={holdingFlowers}
+            alt=""
+            className="absolute right-0 top-0 h-screen w-[53%] z-0"
+          />
         </div>
       </section>
       <section className="h-screen px-8 py-10 flex items-end justify-end">
@@ -66,7 +77,7 @@ const Home = () => {
       <section
         className="h-screen bg-cover bg-center text-white flex items-center justify-center"
         style={{
-          backgroundImage: `url(${apexBackground})`,
+          backgroundImage: `url(${dionysos})`,
         }}
       >
         <h2 className="text-[32px] font-bold underline">DIONYSOS RESORTS</h2>
@@ -74,7 +85,7 @@ const Home = () => {
       <section
         className="h-screen bg-cover bg-center text-white flex items-center justify-center"
         style={{
-          backgroundImage: `url(${apexBackground})`,
+          backgroundImage: `url(${eyeWear})`,
         }}
       >
         <h2 className="text-[32px] font-bold underline">ARGUS EYEWEAR</h2>
@@ -87,7 +98,7 @@ const Home = () => {
       <section
         className="h-[680px] bg-cover bg-center text-white flex flex-col justify-between px-8 pt-8"
         style={{
-          backgroundImage: `url(${apexBackground})`,
+          backgroundImage: `url(${contact})`,
         }}
       >
         <div className="flex justify-between">
