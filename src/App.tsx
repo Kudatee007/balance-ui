@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Sidebar from "./components/Sidebar.jsx"
+import Header from "./components/Header.jsx"
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
      <h1 className=''>
-      <Sidebar />
+      {/* <Sidebar /> */}
+      <Header />
      </h1>
     </>
   )

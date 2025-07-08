@@ -1,16 +1,12 @@
 import React from "react";
-import johnTaylorLogo from "../assets/JohnTaylor-Logo.svg";
-import hamburger from "../assets/hamburger.svg";
-import { Atom, Menu } from "lucide-react";
+import { Atom } from "lucide-react";
+
+
 const Sidebar = () => {
   return (
     <div>
-      <header>
-        <section className="h-screen p-8 w-full">
-          <div className="flex justify-between">
-            <Atom />
-            <Menu />
-          </div>
+      <aside>
+        <section className="h-screen w-full">
           <div className="flex justify-around h-4/5 items-end px-[100px]">
             <ul className="flex flex-col gap-0 leading-28">
               <li className="text-[110px] text-[#141414] font-bold">Home</li>
@@ -39,7 +35,7 @@ const Sidebar = () => {
             </div>
           </div>
         </section>
-      </header>
+      </aside>
     </div>
   );
 };
